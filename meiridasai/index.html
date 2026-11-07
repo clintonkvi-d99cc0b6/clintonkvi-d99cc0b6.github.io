@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>每日大赛yandex-每日大赛yandex赛事解析与观看指南_每日大赛yandex排行榜单与参赛攻略</title>
+<meta name="description" content="每日大赛yandex专题页，聚合每日大赛yandex的赛事看点、榜单排行、参赛指南与实时动态，梳理赛制规则、热门项目与选手表现，帮助读者快速了解每日大赛yandex的比赛节奏、观赛重点与推荐内容，适合收藏追更。">
+<meta name="keywords" content="每日大赛yandex,每日大赛yandex赛事,每日大赛yandex排行,每日大赛yandex攻略,每日大赛yandex动态">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f1b2d'/%3E%3Cpath d='M18 44 L32 16 L46 44 Z' fill='%2338bdf8'/%3E%3Ccircle cx='32' cy='38' r='5' fill='%23fbbf24'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#0d1524;
+  --bg-soft:#131f33;
+  --card:#182640;
+  --card-2:#1d2f4e;
+  --line:#26385a;
+  --txt:#e6eefc;
+  --txt-2:#9fb2d0;
+  --txt-3:#7286a6;
+  --acc:#38bdf8;
+  --acc-2:#fbbf24;
+  --acc-3:#818cf8;
+  --ok:#34d399;
+  --radius:16px;
+  --shadow:0 10px 30px rgba(3,10,24,.45);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,-apple-system,sans-serif;
+  background:
+    radial-gradient(1100px 500px at 12% -8%, rgba(56,189,248,.16), transparent 60%),
+    radial-gradient(900px 460px at 88% 4%, rgba(129,140,248,.14), transparent 62%),
+    var(--bg);
+  color:var(--txt);
+  font-size:16px;
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none}
+img{max-width:100%}
+.wrap{max-width:1200px;margin:0 auto;padding:0 18px}
+.sec{padding:52px 0 10px}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:22px;flex-wrap:wrap}
+.sec-head h2{font-size:24px;letter-spacing:.5px;position:relative;padding-left:14px}
+.sec-head h2::before{content:"";position:absolute;left:0;top:6px;bottom:6px;width:5px;border-radius:4px;background:linear-gradient(180deg,var(--acc),var(--acc-3))}
+.sec-head p{color:var(--txt-2);font-size:14px;max-width:640px}
+.tag{display:inline-block;font-size:12px;line-height:1;padding:6px 10px;border-radius:999px;background:rgba(56,189,248,.12);color:#8fdcff;border:1px solid rgba(56,189,248,.28);margin:0 6px 8px 0;white-space:nowrap}
+.tag.y{background:rgba(251,191,36,.12);color:#ffd977;border-color:rgba(251,191,36,.3)}
+.tag.p{background:rgba(129,140,248,.14);color:#c3c8ff;border-color:rgba(129,140,248,.32)}
+.tag.g{background:rgba(52,211,153,.12);color:#8bf0c9;border-color:rgba(52,211,153,.3)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:11px 20px;border-radius:12px;font-size:14px;font-weight:600;border:1px solid var(--line);background:var(--card);color:var(--txt);transition:.22s;cursor:pointer}
+.btn:hover{transform:translateY(-2px);border-color:var(--acc);box-shadow:0 8px 20px rgba(56,189,248,.18)}
+.btn-main{background:linear-gradient(120deg,#38bdf8,#818cf8);border:none;color:#06111f}
+.btn-main:hover{box-shadow:0 12px 26px rgba(56,189,248,.36)}
+
+/* ===== Nav ===== */
+.nav{position:sticky;top:0;z-index:60;background:rgba(11,19,33,.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav-in{display:flex;align-items:center;gap:22px;height:66px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:17px;letter-spacing:.5px;flex:none}
+.logo .mark{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,#38bdf8,#818cf8);display:grid;place-items:center;color:#07121f;font-size:16px;font-weight:900}
+.nav-links{display:flex;gap:18px;overflow:auto;flex:1;scrollbar-width:none}
+.nav-links::-webkit-scrollbar{display:none}
+.nav-links a{font-size:14px;color:var(--txt-2);white-space:nowrap;padding:6px 2px;border-bottom:2px solid transparent;transition:.2s}
+.nav-links a:hover{color:var(--acc);border-color:var(--acc)}
+.nav-cta{flex:none}
+
+/* ===== Banner ===== */
+.banner{padding:58px 0 40px;position:relative;overflow:hidden}
+.banner::after{content:"";position:absolute;right:-120px;top:-80px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(56,189,248,.22),transparent 65%);pointer-events:none}
+.banner-grid{display:grid;grid-template-columns:1.35fr .9fr;gap:34px;align-items:center}
+.kicker{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--acc);background:rgba(56,189,248,.1);border:1px solid rgba(56,189,248,.28);padding:7px 14px;border-radius:999px;margin-bottom:18px}
+.kicker i{width:7px;height:7px;border-radius:50%;background:var(--ok);display:inline-block;box-shadow:0 0 0 4px rgba(52,211,153,.18)}
+h1{font-size:40px;line-height:1.24;letter-spacing:.5px;margin-bottom:16px}
+h1 em{font-style:normal;background:linear-gradient(100deg,#38bdf8,#818cf8 55%,#fbbf24);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{color:var(--txt-2);font-size:15.5px;margin-bottom:22px;max-width:640px}
+.searchbar{display:flex;gap:10px;background:var(--card);border:1px solid var(--line);padding:8px;border-radius:14px;max-width:560px;box-shadow:var(--shadow)}
+.searchbar input{flex:1;background:transparent;border:none;outline:none;color:var(--txt);font-size:15px;padding:10px 12px}
+.searchbar input::placeholder{color:var(--txt-3)}
+.banner-btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.banner-btns a{font-size:13.5px;padding:9px 15px;border-radius:10px;background:var(--bg-soft);border:1px solid var(--line);color:var(--txt-2);transition:.2s}
+.banner-btns a:hover{color:var(--acc);border-color:var(--acc);transform:translateY(-2px)}
+.banner-side{display:grid;gap:14px}
+.side-card{background:linear-gradient(150deg,var(--card),var(--card-2));border:1px solid var(--line);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow)}
+.side-card h3{font-size:14px;color:var(--txt-3);font-weight:600;margin-bottom:12px;letter-spacing:1px}
+.mini-row{display:flex;justify-content:space-between;gap:10px;font-size:13.5px;padding:8px 0;border-bottom:1px dashed rgba(38,56,90,.9)}
+.mini-row:last-child{border-bottom:none}
+.mini-row span:first-child{color:var(--txt-2)}
+.mini-row span:last-child{color:var(--acc-2);font-weight:700}
+.stat-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.stat{background:rgba(56,189,248,.07);border:1px solid rgba(56,189,248,.16);border-radius:12px;padding:12px}
+.stat b{display:block;font-size:20px;color:#8fdcff}
+.stat small{color:var(--txt-3);font-size:12px}
+
+/* ===== Intro ===== */
+.intro-box{background:linear-gradient(160deg,var(--card),rgba(24,38,64,.55));border:1px solid var(--line);border-radius:20px;padding:30px;box-shadow:var(--shadow)}
+.intro-box p{color:var(--txt-2);font-size:15.5px;margin-bottom:14px}
+.intro-box p:last-child{margin-bottom:0}
+.intro-box strong{color:var(--txt);font-weight:700}
+
+/* ===== Cards ===== */
+.card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.g-card{background:linear-gradient(170deg,var(--card),var(--card-2));border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;transition:.24s;display:flex;flex-direction:column}
+.g-card:hover{transform:translateY(-5px);border-color:rgba(56,189,248,.45);box-shadow:0 16px 34px rgba(3,10,24,.55)}
+.g-cover{height:112px;display:flex;align-items:flex-end;justify-content:space-between;padding:12px;background:linear-gradient(120deg,rgba(56,189,248,.35),rgba(129,140,248,.32));position:relative}
+.g-cover::after{content:"";position:absolute;inset:0;background:radial-gradient(180px 90px at 85% 10%,rgba(251,191,36,.32),transparent 70%)}
+.g-cover .badge{position:relative;z-index:2;font-size:12px;background:rgba(6,17,31,.72);border:1px solid rgba(56,189,248,.4);color:#9fe4ff;padding:5px 10px;border-radius:8px}
+.g-cover .hot{position:relative;z-index:2;font-size:12px;color:#ffd977}
+.g-body{padding:16px 16px 18px;display:flex;flex-direction:column;gap:8px;flex:1}
+.g-body h3{font-size:16.5px;line-height:1.4}
+.g-body p{font-size:13.5px;color:var(--txt-2);flex:1}
+.g-meta{display:flex;justify-content:space-between;font-size:12.5px;color:var(--txt-3);border-top:1px dashed rgba(38,56,90,.9);padding-top:10px}
+.g-meta b{color:var(--acc-2)}
+
+/* ===== Update list ===== */
+.upd-list{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.upd{display:flex;gap:14px;align-items:flex-start;background:var(--bg-soft);border:1px solid var(--line);border-radius:14px;padding:14px 16px;transition:.2s}
+.upd:hover{border-color:rgba(56,189,248,.4);transform:translateX(3px)}
+.upd .t{flex:none;font-size:12px;color:var(--acc);background:rgba(56,189,248,.1);border:1px solid rgba(56,189,248,.25);padding:4px 9px;border-radius:8px;margin-top:2px}
+.upd h4{font-size:15px;margin-bottom:4px}
+.upd p{font-size:13px;color:var(--txt-2)}
+
+/* ===== Category ===== */
+.cat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.cat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;transition:.22s;text-align:center}
+.cat:hover{background:rgba(56,189,248,.08);border-color:rgba(56,189,248,.42);transform:translateY(-4px)}
+.cat b{display:block;font-size:15px;margin-bottom:6px}
+.cat small{color:var(--txt-3);font-size:12.5px}
+
+/* ===== Deep analysis ===== */
+.article-box{background:linear-gradient(165deg,var(--bg-soft),rgba(19,31,51,.6));border:1px solid var(--line);border-radius:20px;padding:32px}
+.article-box h3{font-size:19px;margin:24px 0 10px;color:#bfe6ff;padding-left:12px;border-left:3px solid var(--acc)}
+.article-box h3:first-child{margin-top:0}
+.article-box p{color:var(--txt-2);font-size:15.5px;margin-bottom:12px}
+.article-box ul{margin:0 0 14px 20px;color:var(--txt-2);font-size:15px}
+.article-box li{margin-bottom:7px}
+.article-box strong{color:var(--txt)}
+
+/* ===== Guide ===== */
+.guide-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.guide{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+.guide .num{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:rgba(129,140,248,.16);color:#c3c8ff;font-weight:800;margin-bottom:12px;font-size:15px}
+.guide h4{font-size:15.5px;margin-bottom:8px}
+.guide p{font-size:13.5px;color:var(--txt-2)}
+
+/* ===== FAQ ===== */
+.faq-wrap{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.faq{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+.faq h4{font-size:15px;margin-bottom:8px;color:#bfe6ff}
+.faq h4::before{content:"Q ";color:var(--acc-2);font-weight:900}
+.faq p{font-size:13.8px;color:var(--txt-2)}
+
+/* ===== Comments ===== */
+.cmt-list{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.cmt{background:var(--bg-soft);border:1px solid var(--line);border-radius:14px;padding:15px 17px}
+.cmt-top{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.avatar{width:32px;height:32px;border-radius:50%;display:grid;place-items:center;font-size:13px;font-weight:800;color:#06111f;background:linear-gradient(135deg,#38bdf8,#818cf8);flex:none}
+.cmt-top b{font-size:13.5px}
+.cmt-top small{color:var(--txt-3);font-size:12px;margin-left:auto}
+.cmt p{font-size:13.5px;color:var(--txt-2)}
+
+/* ===== News ===== */
+.news-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.news{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;transition:.2s}
+.news:hover{border-color:rgba(56,189,248,.42);transform:translateY(-4px)}
+.news time{font-size:12px;color:var(--acc-2)}
+.news h4{font-size:15.5px;margin:8px 0}
+.news p{font-size:13.3px;color:var(--txt-2)}
+
+/* ===== Footer ===== */
+footer{margin-top:56px;border-top:1px solid var(--line);background:rgba(11,19,33,.7);padding:36px 0 26px}
+.f-top{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:26px;margin-bottom:26px}
+.f-top h5{font-size:14px;margin-bottom:12px;color:#bfe6ff}
+.f-top a,.f-top p{display:block;font-size:13px;color:var(--txt-3);margin-bottom:8px;transition:.2s}
+.f-top a:hover{color:var(--acc)}
+.f-bottom{border-top:1px dashed rgba(38,56,90,.9);padding-top:18px;font-size:12.5px;color:var(--txt-3);display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+
+@media(max-width:960px){
+  .banner-grid{grid-template-columns:1fr}
+  .card-grid,.news-grid,.guide-grid{grid-template-columns:repeat(2,1fr)}
+  .cat-grid{grid-template-columns:repeat(2,1fr)}
+  .f-top{grid-template-columns:1fr 1fr}
+  h1{font-size:32px}
+}
+@media(max-width:640px){
+  .nav-in{height:58px;gap:14px}
+  .nav-cta{display:none}
+  h1{font-size:26px}
+  .sec{padding:38px 0 6px}
+  .card-grid,.news-grid,.guide-grid,.upd-list,.faq-wrap,.cmt-list{grid-template-columns:1fr}
+  .article-box,.intro-box{padding:20px}
+  .f-top{grid-template-columns:1fr}
+  .banner{padding:38px 0 26px}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- ===== 导航 ===== -->
+<nav class="nav">
+  <div class="wrap nav-in">
+    <a class="logo" href="/#sec-home"><span class="mark">每</span>每日大赛yandex</a>
+    <div class="nav-links">
+      <a href="/#sec-hot">热门赛事</a>
+      <a href="/#sec-update">最新动态</a>
+      <a href="/#sec-cat">赛事分类</a>
+      <a href="/#sec-deep">深度解析</a>
+      <a href="/#sec-guide">观赛指南</a>
+      <a href="/#sec-faq">常见问题</a>
+      <a href="/#sec-cmt">赛友评论</a>
+      <a href="/#sec-news">赛事资讯</a>
+    </div>
+    <div class="nav-cta"><a class="btn btn-main" href="/#sec-hot">进入榜单</a></div>
+  </div>
+</nav>
+
+<!-- ===== 首屏 Banner ===== -->
+<header class="banner" id="sec-home">
+  <div class="wrap banner-grid">
+    <div>
+      <span class="kicker"><i></i>2026年11月7日 · 每日大赛yandex 赛程持续更新中</span>
+      <h1>每日大赛yandex：每日赛程、榜单排行与观赛入口一站汇总</h1>
+      <p class="lead">每天一场不落，把每日大赛yandex的赛事看点、项目分组、选手表现与实时榜单整理在一起。你可以按项目、按日期、按热度快速找到今天该看什么，也能顺着推荐一路追到往期复盘与深度解析。</p>
+      <div class="searchbar">
+        <input type="text" placeholder="搜索赛事名称 / 项目 / 选手 / 关键词">
+        <button class="btn btn-main" type="button">搜索</button>
+      </div>
+      <div class="banner-btns">
+        <a href="/#sec-hot">今日热门赛程</a>
+        <a href="/#sec-update">最新赛果速递</a>
+        <a href="/#sec-cat">按项目分类</a>
+        <a href="/#sec-deep">赛制深度解析</a>
+        <a href="/#sec-rank">综合排行榜</a>
+        <a href="/#sec-guide">新观众入门</a>
+        <a href="/#sec-faq">常见疑问</a>
+        <a href="/#sec-news">赛事资讯</a>
+      </div>
+    </div>
+    <aside class="banner-side">
+      <div class="side-card">
+        <h3>今 日 赛 程 概 览</h3>
+        <div class="mini-row"><span>进行中项目</span><span>6 项</span></div>
+        <div class="mini-row"><span>待开赛项目</span><span>4 项</span></div>
+        <div class="mini-row"><span>今日已完赛</span><span>9 项</span></div>
+        <div class="mini-row"><span>榜单更新</span><span>18:40</span></div>
+      </div>
+      <div class="side-card">
+        <h3>赛 事 数 据</h3>
+        <div class="stat-grid">
+          <div class="stat"><b>1,260+</b><small>累计场次</small></div>
+          <div class="stat"><b>86</b><small>在榜选手</small></div>
+          <div class="stat"><b>24</b><small>项目分类</small></div>
+          <div class="stat"><b>7×24</b><small>动态更新</small></div>
+        </div>
+      </div>
+    </aside>
+  </div>
+</header>
+
+<!-- ===== 内容简介 ===== -->
+<section class="sec" id="sec-intro">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>关于每日大赛yandex这个专题</h2>
+      <p>先弄清这个页面能帮你解决什么，再决定从哪一块开始看。</p>
+    </div>
+    <div class="intro-box">
+      <p><strong>每日大赛yandex</strong>本质上是一个“每日赛事信息聚合入口”。搜索这个词的人，通常不是想读一篇长篇大论，而是想快速确认三件事：今天有哪些比赛、谁在榜上、值不值得花时间看。这个专题页就是围绕这三点搭建的：首屏给出当日赛程概览，中部用卡片和列表铺开热门项目与最新赛果，后段再用深度解析补足赛制、节奏和看点判断。</p>
+      <p>页面的受众比较明确。<strong>一类是追更型观众</strong>，每天固定时间来看看有没有新场次、榜单有没有变化；<strong>一类是研究型读者</strong>，更关心赛制规则、评分逻辑、项目之间的差异；<strong>还有一类是刚接触的新观众</strong>，需要一份能按顺序读下去的入门说明。所以内容上既有短平快的更新条目，也有成段的解析文字，两种阅读节奏并存。</p>
+      <p>从参考价值看，这个页面适合被当作“每日大赛yandex的固定收藏页”。赛事类内容最大的问题是信息分散，赛程在一个地方、榜单在另一个地方、复盘又散落在各处。这里把赛程、榜单、分类、评论和资讯放在同一条阅读路径上，你不需要来回跳转。往下翻，热门推荐能帮你挑出当天最值得看的两三场，深度解析能解释为什么这几场重要，FAQ 则专门回答“先看哪场”“榜单怎么算”这类具体的搜索疑问。</p>
+      <p>如果你只是路过，建议从热门推荐看起；如果你想长期跟，建议先读深度解析和观赛指南，把赛制逻辑弄明白之后再回来看榜单，理解会快很多。整个页面的信息按“先概览、再细节、后讨论”的顺序排列，符合大多数人浏览赛事内容时的习惯。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 热门内容推荐 ===== -->
+<section class="sec" id="sec-hot">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>今日热门赛事推荐</h2>
+      <p>按当日关注度与赛况激烈程度挑选，每张卡片都标注了类型和看点，方便快速取舍。</p>
+    </div>
+    <div class="card-grid">
+      <article class="g-card">
+        <div class="g-cover"><span class="badge">焦点赛 · 进行中</span><span class="hot">热度 98</span></div>
+        <div class="g-body">
+          <h3>每日大赛yandex 主赛区 · 综合对抗场</h3>
+          <div><span class="tag">综合对抗</span><span class="tag y">高关注</span><span class="tag p">多轮制</span></div>
+          <p>当天关注度最高的一场，赛制采用多轮累计计分，前两轮差距很小，第三轮才拉开。适合想看完整对抗节奏的观众。</p>
+          <div class="g-meta"><span>更新至第 3 轮</span><b>评分 9.2</b></div>
+        </div>
+      </article>
+      <article class="g-card">
+        <div class="g-cover"><span class="badge">技巧赛 · 已完赛</span><span class="hot">热度 91</span></div>
+        <div class="g-body">
+          <h3>技巧挑战专场 · 精准度分组</h3>
+          <div><span class="tag">技巧挑战</span><span class="tag g">已出赛果</span><span class="tag">单局决胜</span></div>
+          <p>单局定胜负的快节奏项目，容错率低，往往一个细节就决定排名。适合时间不多、想快速看结果的人。</p>
+          <div class="g-meta"><span>赛果已更新</span><b>评分 8.7</b></div>
+        </div>
+      </article>
+      <article class="g-card">
+        <div class="g-cover"><span class="badge">团队赛 · 今晚开赛</span><span class="hot">热度 89</span></div>
+        <div class="g-body">
+          <h3>团队协作赛 · 分组循环第二轮</h3>
+          <div><span class="tag">团队协作</span><span class="tag y">今晚 20:00</span><span class="tag p">循环制</span></div>
+          <p>循环赛第二轮，胜负直接关系到出线形势。团队项目看的是配合稳定性，前一轮出现过的失误是否修正值得留意。</p>
+          <div class="g-meta"><span>今晚开赛</span><b>评分 8.9</b></div>
+        </div>
+      </article>
+      <article class="g-card">
+        <div class="g-cover"><span class="badge">新秀场 · 进行中</span><span class="hot">热度 84</span></div>
+        <div class="g-body">
+          <h3>新秀选拔场 · 首日表现盘点</h3>
+          <div><span class="tag">新秀场</span><span class="tag g">新人集中</span><span class="tag">积分制</span></div>
+          <p>新人集中亮相的场次，表现波动大但看点也足。适合想提前发现潜力选手、关注后续排名的观众。</p>
+          <div class="g-meta"><span>首日结束</span><b>评分 8.4</b></div>
+        </div>
+      </article>
+      <article class="g-card">
+        <div class="g-cover"><span class="badge">耐力赛 · 长时段</span><span class="hot">热度 82</span></div>
+        <div class="g-body">
+          <h3>耐力长时段赛 · 稳定度比拼</h3>
+          <div><span class="tag">耐力赛</span><span class="tag y">长时段</span><span class="tag p">累计制</span></div>
+          <p>时长拉满的项目，前半程看不出差距，后半程才是分水岭。适合喜欢看后半段翻盘和稳定度对比的观众。</p>
+          <div class="g-meta"><span>进行至中段</span><b>评分 8.3</b></div>
+        </div>
+      </article>
+      <article class="g-card">
+        <div class="g-cover"><span class="badge">表演场 · 非积分</span><span class="hot">热度 78</span></div>
+        <div class="g-body">
+          <h3>表演展示场 · 不计入总榜</h3>
+          <div><span class="tag">表演场</span><span class="tag g">轻松向</span><span class="tag">非积分</span></div>
+          <p>不计入总榜的展示场次，节奏轻松、容错高，适合当作正赛之间的调剂，也适合刚接触这个专题的新观众入门。</p>
+          <div class="g-meta"><span>已完赛</span><b>评分 8.0</b></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 最新更新 ===== -->
+<section class="sec" id="sec-update">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>每日大赛yandex 最新动态</h2>
+      <p>以下条目按时间倒序排列，均为 2026年11月7日 及前几日的更新记录。</p>
+    </div>
+    <div class="upd-list">
+      <div class="upd"><span class="t">18:40</span><div><h4>主赛区第三轮赛果出炉</h4><p>综合对抗场第三轮结束，累计分差缩小到 2 分以内，最终排名仍未锁定。</p></div></div>
+      <div class="upd"><span class="t">17:15</span><div><h4>技巧挑战专场赛果更新</h4><p>精准度分组全部完成，前三名分差不足 0.5，细节处理成为关键。</p></div></div>
+      <div class="upd"><span class="t">16:02</span><div><h4>团队协作赛对阵表确认</h4><p>分组循环第二轮对阵已确认，今晚 20:00 开赛，出线形势将被重新计算。</p></div></div>
+      <div class="upd"><span class="t">14:30</span><div><h4>新秀选拔场首日积分公示</h4><p>首日积分榜已更新，前五名中有两位是首次进入榜单的新面孔。</p></div></div>
+      <div class="upd"><span class="t">12:48</span><div><h4>耐力长时段赛进入中段</h4><p>赛程过半，稳定度差异开始显现，后半程的体能分配思路值得关注。</p></div></div>
+      <div class="upd"><span class="t">11:20</span><div><h4>表演展示场完整回顾上线</h4><p>非积分展示场次回顾已整理，适合新观众用来熟悉整体节奏与项目差异。</p></div></div>
+      <div class="upd"><span class="t">11月6日</span><div><h4>综合排行榜完成周度刷新</h4><p>周度榜单已刷新，前十分布变化不大，但中段位置的竞争明显更拥挤。</p></div></div>
+      <div class="upd"><span class="t">11月6日</span><div><h4>赛制说明页补充计分细则</h4><p>补充了多轮累计计分与单局决胜的差异说明，方便读者理解排名逻辑。</p></div></div>
+      <div class="upd"><span class="t">11月5日</span><div><h4>新增“项目分类索引”入口</h4><p>按项目类型整理了分类索引，找特定类型的场次更快，适合有明确偏好的观众。</p></div></div>
+      <div class="upd"><span class="t">11月4日</span><div><h4>往期复盘合集整理完成</h4><p>近期重点场次的复盘文字已归入延伸阅读模块，便于顺着线索回看。</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 分类入口 ===== -->
+<section class="sec" id="sec-cat">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>按项目分类找场次</h2>
+      <p>每日大赛yandex 的项目类型较多，先按大类筛选，比逐个翻列表高效。</p>
+    </div>
+    <div class="cat-grid">
+      <a class="cat" href="/#sec-hot"><b>综合对抗</b><small>多轮累计 · 高强度</small></a>
+      <a class="cat" href="/#sec-hot"><b>技巧挑战</b><small>单局决胜 · 快节奏</small></a>
+      <a class="cat" href="/#sec-hot"><b>团队协作</b><small>循环制 · 出线关键</small></a>
+      <a class="cat" href="/#sec-hot"><b>新秀选拔</b><small>积分制 · 潜力观察</small></a>
+      <a class="cat" href="/#sec-hot"><b>耐力长时段</b><small>累计制 · 稳定度</small></a>
+      <a class="cat" href="/#sec-hot"><b>表演展示</b><small>非积分 · 轻松向</small></a>
+      <a class="cat" href="/#sec-rank"><b>排行榜单</b><small>综合 · 周度刷新</small></a>
+      <a class="cat" href="/#sec-guide"><b>新观众入门</b><small>顺序阅读 · 术语表</small></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 排行榜 ===== -->
+<section class="sec" id="sec-rank">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>每日大赛yandex 综合榜单速览</h2>
+      <p>榜单为模拟展示，用于说明排名结构，实际名次以当日赛果为准。</p>
+    </div>
+    <div class="upd-list">
+      <div class="upd"><span class="t">TOP 1</span><div><h4>主赛区综合对抗 · 累计分领先</h4><p>三轮累计分暂列第一，优势不大，最后一轮仍有被反超的可能。</p></div></div>
+      <div class="upd"><span class="t">TOP 2</span><div><h4>技巧挑战 · 精准度分组第一</h4><p>单局表现稳定，关键细节处理干净，是当天最没有争议的一个头名。</p></div></div>
+      <div class="upd"><span class="t">TOP 3</span><div><h4>团队协作 · 循环赛暂居首位</h4><p>配合默契度高，第二轮的对阵将直接决定能否守住这个位置。</p></div></div>
+      <div class="upd"><span class="t">TOP 4</span><div><h4>耐力长时段 · 稳定度评分领先</h4><p>前半程没有冒进，后半程的体能分配是它能否守住排名的关键。</p></div></div>
+      <div class="upd"><span class="t">TOP 5</span><div><h4>新秀选拔 · 首日积分第五</h4><p>首日表现中规中矩，但上升空间被普遍看好，属于值得持续关注的位置。</p></div></div>
+      <div class="upd"><span class="t">TOP 6</span><div><h4>综合榜中段竞争最激烈</h4><p>第六到第十二名分差很小，任何一场赛果都可能带来位置互换。</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 深度解析 ===== -->
+<section class="sec" id="sec-deep">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>每日大赛yandex 深度解析</h2>
+      <p>赛制、节奏与看点判断，这一部分适合想看得更明白的读者。</p>
+    </div>
+    <div class="article-box">
+      <h3>一、这个词背后到底在找什么</h3>
+      <p>搜索“每日大赛yandex”的人，需求其实很集中：一是确认当天有没有比赛、几点开始；二是看结果和榜单有没有变化；三是判断某一场值不值得看。这三个需求决定了这类页面的组织方式——不能只有长篇正文，也不能只有一堆卡片，而是要在前 300 字内把“今天有什么”说清楚，再往下展开解释。所以本页把赛程概览放在首屏侧栏，把热门推荐放在最靠前的位置，深度解析则后置，避免挡住快速浏览的读者。</p>
+      <p>从内容类型上看，每日大赛yandex属于典型的“日更型赛事聚合”内容。它和单场比赛的报道不同，重点不在某一场的胜负细节，而在于横向对比：同一天不同项目之间的节奏差异、同一项目不同轮次之间的强度变化、以及榜单在一天之内的波动。理解这一点，就能明白为什么这个页面会同时出现列表、卡片、榜单和长文四种形态。</p>
+
+      <h3>二、赛制结构：多轮累计与单局决胜的差别</h3>
+      <p>每日大赛yandex 的项目大致可以分成两类赛制。第一类是<strong>多轮累计制</strong>，比如综合对抗场，通常分三轮或更多，每轮单独计分后累加，最终按总分排名。这类赛制的特点是“前松后紧”，前两轮往往看不出明显差距，真正拉开是在最后一轮。观众如果只看第一轮就下判断，很容易误判形势。</p>
+      <p>第二类是<strong>单局决胜制</strong>，比如技巧挑战专场，一局定胜负，容错率极低。这类场次节奏快、悬念集中，适合碎片时间观看，但也意味着偶然性更大，一次细节失误就可能从前列掉到中游。两类赛制各有受众：想看完整对抗过程的选第一类，想快速看结果、追求刺激感的选第二类。</p>
+      <p>还有一类是<strong>循环制</strong>，常见于团队协作赛。它的关键不在单场胜负，而在于出线形势的计算。循环赛第二轮往往是分水岭，因为第一轮的试探性表现已经过去，各队对彼此的节奏有了判断，第二轮开始才真正进入硬碰硬。看循环赛时，建议同时关注积分和对阵，单看一场容易低估整体形势的复杂度。</p>
+
+      <h3>三、节奏与观看体验</h3>
+      <p>从观看体验来说，每日大赛yandex 的项目排布是有意错开的。上午偏技巧类和快节奏场次，中午到下午是耐力长时段赛的主场，晚间则集中安排团队协作和综合对抗这类需要连续观看的项目。这种排布的好处是，不同时间段进入的观众都能找到合适的内容；坏处是如果你只在一个固定时间来看，可能会错过类型完全不同的场次。</p>
+      <p>建议的观看顺序是：先花两分钟看赛程概览，确认今天有哪些项目和大致时间；再从热门推荐里挑一到两场重点看；如果时间充裕，用最新动态补齐当天已完赛的结果；最后再回来看榜单，把单场结果放回整体排名里理解。这个顺序比“从第一条开始逐条读”效率高得多，也不容易漏掉关键信息。</p>
+
+      <h3>四、适合哪些人，以及同类内容怎么比较</h3>
+      <p>这个专题页最适合三类读者。<strong>追更型观众</strong>每天固定来一次，看更新和榜单变化即可，深度解析可以跳过；<strong>研究型读者</strong>更关心赛制和排名逻辑，建议从深度解析读起，再回头对照榜单验证；<strong>新观众</strong>则建议先看表演展示场和观赛指南，从轻松的项目入手，等熟悉节奏后再看高强度对抗。</p>
+      <p>和其他同类赛事聚合内容相比，这类页面的差异主要体现在“信息密度”和“阅读路径”上。有些聚合页只是把链接堆在一起，看完还是不知道该看哪场；有些则过度依赖单篇长文，快速浏览的读者找不到重点。本页试图在两者之间取一个平衡：前面给结论，后面给解释，中间用卡片和列表承担过渡。这也是为什么同一个关键词下，页面会同时出现短条目和长段落——它们服务的是不同阅读深度的需求。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 观赛/体验指南 ===== -->
+<section class="sec" id="sec-guide">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>观赛与使用指南</h2>
+      <p>不夸大功能，只说明这个页面能提供什么、怎么用更顺手。</p>
+    </div>
+    <div class="guide-grid">
+      <div class="guide">
+        <div class="num">01</div>
+        <h4>先看概览再看细节</h4>
+        <p>首屏侧栏的赛程概览是入口，先知道今天有几项、进行到哪一步，再决定要不要往下细看。</p>
+      </div>
+      <div class="guide">
+        <div class="num">02</div>
+        <h4>按项目筛选更高效</h4>
+        <p>如果你有明确偏好，直接从分类入口进入对应项目，比逐条翻更新列表省时间。</p>
+      </div>
+      <div class="guide">
+        <div class="num">03</div>
+        <h4>移动端阅读友好</h4>
+        <p>页面在手机上会自动收成单列，卡片和列表不会挤压文字，适合通勤路上快速浏览。</p>
+      </div>
+      <div class="guide">
+        <div class="num">04</div>
+        <h4>适合收藏追更</h4>
+        <p>更新条目按时间倒序排列，每天回来从顶部往下看几条，就能补齐当天的变化。</p>
+      </div>
+      <div class="guide">
+        <div class="num">05</div>
+        <h4>用推荐扩展浏览路径</h4>
+        <p>看完一场如果想找类似的，热门推荐和延伸阅读里通常有同类型或同赛制的场次。</p>
+      </div>
+      <div class="guide">
+        <div class="num">06</div>
+        <h4>评论区别急着跳过</h4>
+        <p>评论区里常有对赛制和判罚的讨论，看之前扫一眼，能帮你提前发现容易误解的地方。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="sec" id="sec-faq">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>每日大赛yandex 常见问题</h2>
+      <p>围绕赛制、观看顺序和榜单逻辑，整理了六个被问得最多的问题。</p>
+    </div>
+    <div class="faq-wrap">
+      <div class="faq">
+        <h4>每日大赛yandex 一天大概有几场？</h4>
+        <p>按当前排布，一天大致在十几场到二十场之间，分为上午、下午、晚间三个时段。正在进行和待开赛的项目会在首屏概览里分别标出数量，已完赛的项目则进入最新动态列表。如果你只想看重点，热门推荐里通常会保留六场左右，覆盖不同类型的赛制。</p>
+      </div>
+      <div class="faq">
+        <h4>新观众应该从哪一场开始看？</h4>
+        <p>建议先从表演展示场或技巧挑战这类节奏清晰、单局结束的项目入手，不需要提前了解太多背景。看完一两场之后再去看多轮累计制的综合对抗，会更容易理解分差是怎么一点点拉开的。如果时间有限，也可以直接读深度解析里关于赛制的部分，再挑一场对照着看。</p>
+      </div>
+      <div class="faq">
+        <h4>榜单是按什么规则排的？</h4>
+        <p>综合榜主要参考累计积分和近期表现，不同赛制的项目权重并不一样，多轮累计制看重稳定性，单局决胜制更看重关键场次的表现。页面里的榜单为模拟展示，用来说明排名结构，实际名次以当日赛果为准。理解这一点之后，再看榜单位置变化就不会觉得突兀。</p>
+      </div>
+      <div class="faq">
+        <h4>为什么有的场次不计入总榜？</h4>
+        <p>表演展示类场次本身定位就是非积分性质，主要作用是调节节奏和给新观众一个熟悉规则的机会，所以不参与总榜排名。这类场次的观看门槛低，但竞技强度也相对有限，适合作为正赛之间的调剂，不太适合用来判断整体实力水平。</p>
+      </div>
+      <div class="faq">
+        <h4>错过了当天的比赛怎么办？</h4>
+        <p>最新动态里会保留已完赛场次的赛果摘要，往期重点场次的复盘则归在延伸阅读模块。建议先看赛果摘要确认结果，再挑感兴趣的场次看复盘文字。如果是赛制层面的疑问，FAQ 和深度解析里通常已经覆盖，不需要逐场回看。</p>
+      </div>
+      <div class="faq">
+        <h4>想看某一类项目，怎么找最快？</h4>
+        <p>从分类入口进入是最直接的方式，八个分类分别对应综合对抗、技巧挑战、团队协作、新秀选拔、耐力长时段、表演展示、排行榜单和新观众入门。选定分类后，再结合最新动态里的时间标签，就能快速定位到具体场次，不用在长列表里反复翻找。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 用户评论 ===== -->
+<section class="sec" id="sec-cmt">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>赛友评论区</h2>
+      <p>近 30 天内的读者留言，观点有赞有弹，按时间倒序展示。</p>
+    </div>
+    <div class="cmt-list">
+      <div class="cmt"><div class="cmt-top"><span class="avatar">林</span><b>林间慢跑</b><small>11月7日</small></div><p>主赛区第三轮的分差缩到两分以内，最后一轮怕是要翻。看了三届，这种局面通常后半段更稳的那一方笑到最后。</p></div>
+      <div class="cmt"><div class="cmt-top"><span class="avatar">陈</span><b>陈小北</b><small>11月7日</small></div><p>技巧挑战的赛果我是服气的，前三名差不到 0.5，细节处理确实干净。就是看起来有点不过瘾，一局就结束了。</p></div>
+      <div class="cmt"><div class="cmt-top"><span class="avatar">苏</span><b>苏打气泡</b><small>11月7日</small></div><p>团队赛今晚开，对阵表出得有点晚，不过循环赛第二轮确实关键，第一轮大家都在试探，第二轮才是真打。</p></div>
+      <div class="cmt"><div class="cmt-top"><span class="avatar">周</span><b>周末不加班</b><small>11月7日</small></div><p>新秀场首日看下来，有两个新人表现比预期好，但稳定性还不好说，再观察两轮。</p></div>
+      <div class="cmt"><div class="cmt-top"><span class="avatar">何</span><b>何处惹尘埃</b><small>11月6日</small></div><p>耐力赛前半程真的看不出什么，我中途切出去看了别的，回来发现排名全变了，有点后悔。</p></div>
+      <div class="cmt"><div class="cmt-top"><span class="avatar">吴</span><b>吴言以对</b><small>11月6日</small></div><p>榜单中段那几名分差太小了，感觉每天都要重新看一遍才跟得上，第六到第十二基本是同一个水平线。</p></div>
+      <div class="cmt"><div class="cmt-top"><span class="avatar">许</span><b>许愿tree</b><small>11月6日</small></div><p>表演展示场挺适合入门的，节奏轻松，规则也简单，我拿给我朋友看，他一下就懂了。</p></div>
+      <div class="cmt"><div class="cmt-top"><span class="avatar">高</span><b>高桥凉面</b><small>11月5日</small></div><p>赛制说明那块补得挺及时，之前一直没搞懂多轮累计和单局决胜的权重差在哪，看完清楚多了。</p></div>
+      <div class="cmt"><div class="cmt-top"><span class="avatar">罗</span><b>罗盘指针</b><small>11月5日</small></div><p>提个意见，更新列表如果能标注一下“重点场次”会更好，现在每天十几条，挑起来还是有点费劲。</p></div>
+      <div class="cmt"><div class="cmt-top"><span class="avatar">沈</span><b>沈默是金</b><small>11月5日</small></div><p>综合对抗那场我本来以为早定局了，结果最后一轮又打回来，这种赛制确实不能提前下结论。</p></div>
+      <div class="cmt"><div class="cmt-top"><span class="avatar">韩</span><b>韩梅梅</b><small>11月4日</small></div><p>分类入口挺好用的，我只看技巧类，直接从分类进去比翻列表快，希望后面能再加点细分。</p></div>
+      <div class="cmt"><div class="cmt-top"><span class="avatar">叶</span><b>叶落知秋</b><small>11月4日</small></div><p>说句实在的，有些场次看简介就够了，不一定每场都追，挑重点看体验更好。</p></div>
+      <div class="cmt"><div class="cmt-top"><span class="avatar">方</span><b>方糖不甜</b><small>11月3日</small></div><p>评论区讨论赛制的比讨论结果的还多，有点意思，不过也确实，规则搞不懂看着就没劲。</p></div>
+      <div class="cmt"><div class="cmt-top"><span class="avatar">郑</span><b>郑在输入</b><small>11月3日</small></div><p>新秀场那两个新人我记住了，希望后面别高开低走，首日表现好但后面掉下来的例子太多了。</p></div>
+      <div class="cmt"><div class="cmt-top"><span class="avatar">钱</span><b>钱多多</b><small>11月2日</small></div><p>今天更新挺密的，下午那波赛果刷新得很快，页面不用刷新也能看到新条目，体验还行。</p></div>
+      <div class="cmt"><div class="cmt-top"><span class="avatar">孟</span><b>孟婆的碗</b><small>11月2日</small></div><p>中性评价一句：内容够全，但对完全新的人来说术语还是偏多，建议入门部分再通俗一点。</p></div>
+      <div class="cmt"><div class="cmt-top"><span class="avatar">尹</span><b>尹口吃不胖</b><small>11月1日</small></div><p>周末连着看了两天，感觉上午的场次节奏最舒服，晚上那几场反而有点拖。</p></div>
+      <div class="cmt"><div class="cmt-top"><span class="avatar">白</span><b>白开水加冰</b><small>10月31日</small></div><p>榜单周度刷新之后变化不算大，但中段确实挤，感觉这几天还会再动一动。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 相关资讯 ===== -->
+<section class="sec" id="sec-news">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>每日大赛yandex 相关资讯</h2>
+      <p>赛事动态、赛制调整与观看建议，按发布日期排列。</p>
+    </div>
+    <div class="news-grid">
+      <article class="news">
+        <time>2026-11-07</time>
+        <h4>主赛区第三轮赛果收窄分差，最终排名悬念留到最后一轮</h4>
+        <p>综合对抗场三轮累计分差压缩到 2 分以内，前两名的位置在最后一轮之前仍存在互换可能，是本日关注度最高的变化。</p>
+      </article>
+      <article class="news">
+        <time>2026-11-07</time>
+        <h4>技巧挑战专场完赛，前三名分差不足 0.5</h4>
+        <p>单局决胜制的典型场次，精准度分组的前三名差距极小，细节处理的稳定性成为决定名次的主要因素。</p>
+      </article>
+      <article class="news">
+        <time>2026-11-06</time>
+        <h4>团队协作赛第二轮对阵公布，出线形势将被重新计算</h4>
+        <p>循环赛进入第二轮，各队在第一轮的试探性表现已经过去，本轮对阵结果将直接影响后续出线名额的分配。</p>
+      </article>
+      <article class="news">
+        <time>2026-11-06</time>
+        <h4>赛制说明补充计分细则，多轮与单局权重差异更清晰</h4>
+        <p>针对读者集中反馈的排名疑问，补充了多轮累计计分与单局决胜在总榜权重上的差异说明，便于对照榜单理解。</p>
+      </article>
+      <article class="news">
+        <time>2026-11-05</time>
+        <h4>新秀选拔场首日积分公示，两位新面孔进入前五</h4>
+        <p>首日积分榜更新后，前五名中出现两个首次进入榜单的选手，后续稳定性仍需观察，但上升空间被普遍看好。</p>
+      </article>
+      <article class="news">
+        <time>2026-11-04</time>
+        <h4>往期重点场次复盘合集整理完成，延伸阅读入口上线</h4>
+        <p>近期关注度较高的场次复盘已归入延伸阅读模块，读者可以顺着推荐路径回看往期内容，不必逐条翻找。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 延伸阅读 ===== -->
+<section class="sec" id="sec-more">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>延伸阅读与专题入口</h2>
+      <p>如果你已经看完上面的内容，这几个方向可以继续往下走。</p>
+    </div>
+    <div class="cat-grid">
+      <a class="cat" href="/#sec-deep"><b>赛制深度解析</b><small>多轮累计与单局决胜</small></a>
+      <a class="cat" href="/#sec-rank"><b>榜单变化观察</b><small>中段竞争与周度刷新</small></a>
+      <a class="cat" href="/#sec-update"><b>每日动态追踪</b><small>按时间倒序更新</small></a>
+      <a class="cat" href="/#sec-faq"><b>常见疑问汇总</b><small>观看顺序与规则说明</small></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 页脚 ===== -->
+<footer>
+  <div class="wrap">
+    <div class="f-top">
+      <div>
+        <h5>每日大赛yandex</h5>
+        <p>聚合每日赛程、榜单排行、赛制解析与观赛建议的内容专题页，信息按阅读深度分层排列，适合追更与收藏。</p>
+      </div>
+      <div>
+        <h5>栏目导航</h5>
+        <a href="/#sec-hot">热门赛事</a>
+        <a href="/#sec-update">最新动态</a>
+        <a href="/#sec-cat">项目分类</a>
+        <a href="/#sec-deep">深度解析</a>
+      </div>
+      <div>
+        <h5>帮助与说明</h5>
+        <a href="/#sec-guide">观赛指南</a>
+        <a href="/#sec-faq">常见问题</a>
+        <a href="/#sec-cmt">赛友评论</a>
+        <a href="/#sec-news">赛事资讯</a>
+      </div>
+      <div>
+        <h5>友情链接</h5>
+        <a href="/#sec-home">站点首页</a>
+        <a href="/#sec-rank">综合榜单</a>
+        <a href="/#sec-more">延伸阅读</a>
+        <a href="/#sec-intro">专题简介</a>
+      </div>
+    </div>
+    <div class="f-bottom">
+      <span>© 2026 每日大赛yandex 内容专题页 · 本页信息为内容整理与展示用途</span>
+      <span>免责声明：页面内榜单、赛果与数据均为模拟展示，实际信息以官方发布为准；本页不提供任何下载或交易服务。</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+  </html>
